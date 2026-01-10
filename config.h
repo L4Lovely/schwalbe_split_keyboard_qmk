@@ -1,11 +1,13 @@
 #pragma once
 #define EE_HANDS
-#define ROWS_PER_HAND 4
-#define SPLIT_TRANSACTION_TIMEOUT 15
+// #define ROWS_PER_HAND 4
+// #define SPLIT_TRANSACTION_TIMEOUT 15
 
-#define SERIAL_DRIVER vendor
-#define SERIAL_UART_PROTOCOL_NUMBER 0
-#define SERIAL_UART_BAUD 115200
+// #define SERIAL_DRIVER vendor
+// #define SERIAL_UART_PROTOCOL_NUMBER 0
+// #define SERIAL_UART_BAUD 115200
+
+#ifndef INIT_EE_HANDS_RIGHT
 
 #define SERIAL_USART_FULL_DUPLEX   // Enable full duplex operation mode.
 
